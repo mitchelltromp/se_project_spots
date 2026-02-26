@@ -3,6 +3,8 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .card__content {
@@ -18,10 +20,31 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  opacity: 0.7;
+  }
+
+  .card__like-button:hover {
+  opacity: 1;
+  }
+
+.card__title {
+  font: 500 20px/1.2 Poppins;
+  margin: 0;
+  max-width: 353px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+   .card__title {
+    max-width: 235px;
   }
 }

@@ -8,6 +8,7 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
+  border-radius: 8px;
 }
 .profile__column {
   display: flex;
@@ -40,10 +41,29 @@
 
 .profile__edit-btn {
   margin-top: auto;
+  font: 500 16px/1 Poppins;
 }
 
 .profile__add-btn {
   margin-left: auto;
+}
+
+.profile__edit-btn,
+.profile__add-btn {
+  font: 500 16px/1 Poppins;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.profile__edit-btn:hover,
+.profile__add-btn:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 627px) {
@@ -59,6 +79,7 @@
     margin: 0 0 12px;
     height: 80px;
     width: 80px;
+    border-radius: 8px;
   }
 
   .profile__column {
@@ -67,6 +88,7 @@
   }
 
   .profile__name {
+    color: #212121b2;
     font-size: 20px;
     margin: 0 0 6px;
     max-width: 288px;
@@ -82,5 +104,6 @@
     margin: 0;
     max-width: 288px;
     width: 100%;
+
   }
 }
