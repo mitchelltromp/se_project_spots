@@ -46,6 +46,18 @@
 
 .profile__add-btn {
   margin-left: auto;
+  padding: 0;
+  width: 157px;
+  height: 52px;
+  background-color: #212121;
+  color: #fcf5e5;
+  border-radius: 8px;
+  align-self: end;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
 }
 
 .profile__edit-btn,
