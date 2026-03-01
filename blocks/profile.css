@@ -60,8 +60,7 @@
   cursor: pointer;
 }
 
-.profile__edit-btn,
-.profile__add-btn {
+.profile__edit-btn{
   font: 500 16px/1 Poppins;
   display: flex;
   align-items: center;
