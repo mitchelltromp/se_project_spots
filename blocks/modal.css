@@ -39,20 +39,18 @@
   background-size: contain;
   border: none;
   cursor: pointer;
+  background-image: url(../images/close-btn.svg);
+  background-color: transparent;
 }
 
 .modal__title{
 margin: 0 0 32px;
-display: flex;
-flex-direction: row;
 align-items: center;
 padding: 0px;
-gap: 421px;
-width: 630px;
-height: 40px;
-flex: none;
-order: 0;
-flex-grow: 0;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+  color: #212121;
 
 }
 
@@ -66,6 +64,15 @@ flex-grow: 0;
   display: block;
   margin: 8px 0 0;
   padding: 16px 12px;
+   width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(33, 33, 33, 0.4);
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 1;
+  padding: 16px 12px 16px;
+  margin: 8px 0 0;
+  color: #212121;
 }
 
 .modal__input::placeholder{
