@@ -7,14 +7,14 @@ const editProfileNameInput = editProfileModal.querySelector(
 );
 
 const editProfileDescriptionInput = editProfileModal.querySelector(
-  "#profile-description-input",
+  "#card-description-input",
 );
 
 const addCardModal = document.querySelector("#new-post-modal");
 
 const addCardFormElement = addCardModal.querySelector(".modal__form");
 const linkInput = addCardModal.querySelector("#card-image-input");
-const nameInput = addCardModal.querySelector("#card-description-input");
+const nameInput = addCardModal.querySelector("#profile-description-input");
 
 const newPostBtn = document.querySelector(".profile__new-post-btn");
 const newPostModal = document.querySelector("#new-post-modal");
