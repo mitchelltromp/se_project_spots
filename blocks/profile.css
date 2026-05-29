@@ -39,12 +39,7 @@
   max-width: 420px;
 }
 
-.profile__edit-btn {
-  margin-top: auto;
-  font: 500 16px/1 Poppins;
-}
-
-.profile__new-post-btn{
+.profile__new-post-btn {
   margin-left: auto;
   padding: 0;
   width: 157px;
@@ -58,13 +53,13 @@
   font-weight: 500;
   border: none;
   cursor: pointer;
- display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px;
 }
 
-.profile__edit-btn{
+.profile__edit-btn {
   font: 500 16px/1 Poppins;
   display: flex;
   align-items: center;
@@ -74,10 +69,10 @@
   padding: 0;
   opacity: 0.7;
   cursor: pointer;
+  margin-top: auto;
 }
 
-.profile__edit-btn:hover,
-.profile__add-btn:hover {
+.profile__edit-btn:hover {
   opacity: 1;
 }
 
@@ -116,7 +111,7 @@
     max-width: 288px;
   }
 
-  .profile__new-post-btn{
+  .profile__new-post-btn {
     margin: 0;
     max-width: 288px;
     width: 100%;
