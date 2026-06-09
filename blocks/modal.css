@@ -69,6 +69,18 @@
   cursor: pointer;
 }
 
+.modal__close-btn_type_preview {
+  background-image: url(../images/Close-icon.svg);
+  top: 55px;
+  right: 265px;
+}
+
+.modal__caption {
+  background-color: #212121;
+  width: fit-content;
+  color: white;
+}
+
 .modal__submit-btn {
   max-width: none;
   display: flex;
