@@ -11,14 +11,15 @@
   align-items: center;
   padding: 10px;
   background-color: #00000080;
+  font-family:Poppins, Arial, Helvetica, sans-serif ;
+   transition:
+    opacity 0.5s linear,
+    visibility 0.5s linear;
 }
 
 .modal_is-opened {
   visibility: visible;
   opacity: 1;
-  transition:
-    opacity 0.5s linear,
-    visibility 0.5s linear;
 }
 
 .modal__container {
@@ -69,16 +70,23 @@
   cursor: pointer;
 }
 
+.modal__image-container{
+position: relative;
+}
+
 .modal__close-btn_type_preview {
   background-image: url(../images/Close-icon.svg);
-  top: 55px;
-  right: 265px;
+  top: 0px;
+  right: -40px;
 }
 
 .modal__caption {
   background-color: #212121;
   width: fit-content;
   color: white;
+  padding: 4px 8px;
+  margin: 8px 0 0;
+  border-radius: 8px;
 }
 
 .modal__submit-btn {
